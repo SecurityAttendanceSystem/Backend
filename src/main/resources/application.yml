@@ -1,0 +1,6 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://login.microsoftonline.com/ec9ef439-ba6e-48ca-8428-b8a612dd7b64/discovery/v2.0/keys
