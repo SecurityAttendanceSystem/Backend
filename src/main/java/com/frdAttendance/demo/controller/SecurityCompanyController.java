@@ -19,7 +19,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/securityCompany")
-@CrossOrigin(origins = "http://localhost:5173")// Allow frontend origin
+@CrossOrigin(origins = "https://sam.slt.lk/")// Allow frontend origin
 @RequiredArgsConstructor
 public class SecurityCompanyController {
     @Autowired

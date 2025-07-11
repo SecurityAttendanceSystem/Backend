@@ -18,7 +18,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @RequestMapping("/api/systemUser")
 //@CrossOrigin(origins = "http://localhost:5173")
-@CrossOrigin(origins = "http://localhost:5173") // Allow frontend requests
+@CrossOrigin(origins = "https://sam.slt.lk/") // Allow frontend requests
 public class SystemUserController {
 
     @Autowired

@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/security-staff")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://sam.slt.lk/")
 public class SecurityStaffController {
 
     @Autowired
